@@ -10,9 +10,14 @@ import type { Prompt } from "@/types";
 type PromptCardProps = {
   prompt: Prompt;
   className?: string;
+  showCategory?: boolean;
 };
 
-export function PromptCard({ prompt, className }: PromptCardProps) {
+export function PromptCard({
+  prompt,
+  className,
+  showCategory = true,
+}: PromptCardProps) {
   const categoryName = getCategoryName(prompt.category);
 
   return (
@@ -25,9 +30,16 @@ export function PromptCard({ prompt, className }: PromptCardProps) {
       <PromptCardImage src={prompt.image} alt={prompt.title} />
 
       <div className="flex flex-1 flex-col p-5">
-        <p className="text-xs font-medium text-muted">{categoryName}</p>
+        {showCategory ? (
+          <p className="text-xs font-medium text-muted">{categoryName}</p>
+        ) : null}
 
-        <h3 className="mt-2 text-base font-semibold leading-snug text-foreground">
+        <h3
+          className={cn(
+            "text-base font-semibold leading-snug text-foreground",
+            showCategory ? "mt-2" : undefined,
+          )}
+        >
           <Link
             href={`/prompts/${prompt.slug}`}
             className="hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"

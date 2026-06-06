@@ -1,5 +1,4 @@
 export { BlogPostCard } from "./BlogPostCard";
-export { CategoryCard } from "./CategoryCard";
 export { CtaSection } from "./CtaSection";
 export { FeaturedPromptsSection } from "./FeaturedPromptsSection";
 export { HeroSection } from "./HeroSection";

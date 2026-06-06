@@ -1,5 +1,5 @@
 import { Container } from "@/components/layout/Container";
-import { CategoryCard } from "@/components/home/CategoryCard";
+import { CategoryCard } from "@/components/categories";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { getPopularCategories } from "@/lib/data";
 
