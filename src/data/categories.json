@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Marketing",
+    "slug": "marketing",
+    "description": "Campaigns, copy, and growth experiments."
+  },
+  {
+    "name": "Writing",
+    "slug": "writing",
+    "description": "Articles, newsletters, and long-form content."
+  },
+  {
+    "name": "Development",
+    "slug": "development",
+    "description": "Code reviews, docs, and architecture notes."
+  },
+  {
+    "name": "Design",
+    "slug": "design",
+    "description": "Briefs, critiques, and UX research plans."
+  },
+  {
+    "name": "Productivity",
+    "slug": "productivity",
+    "description": "Planning, meetings, and personal workflows."
+  },
+  {
+    "name": "Research",
+    "slug": "research",
+    "description": "Interviews, surveys, and competitive analysis."
+  }
+]

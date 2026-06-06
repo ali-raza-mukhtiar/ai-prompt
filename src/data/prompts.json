@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "title": "Product Launch Email Sequence",
+    "slug": "product-launch-email-sequence",
+    "category": "marketing",
+    "prompt": "You are an email marketing strategist. Write a five-email launch sequence for [product name]. Audience: [target audience]. Tone: clear and confident, not hype-driven.\n\nEmail 1: Teaser — introduce the problem and hint at a solution.\nEmail 2: Story — share why we built this and who it helps.\nEmail 3: Features — three concrete benefits with examples.\nEmail 4: Social proof — customer quote and one metric.\nEmail 5: Last chance — direct CTA with a deadline.\n\nKeep each email under 200 words. Subject lines under 50 characters.",
+    "image": "/images/prompts/product-launch-email.jpg",
+    "tags": ["email", "launch", "marketing"]
+  },
+  {
+    "id": "2",
+    "title": "Technical Blog Post Outline",
+    "slug": "technical-blog-post-outline",
+    "category": "writing",
+    "prompt": "Create a detailed outline for a technical blog post about [topic]. Target reader: [seniority level] engineers.\n\nInclude:\n1. Hook — a specific problem the reader recognizes\n2. Context — why this matters now\n3. Core explanation — break into 3–4 sections with subheadings\n4. Code example placeholder — what to demonstrate\n5. Trade-offs — when not to use this approach\n6. Conclusion — one actionable takeaway\n\nSuggest a working title and meta description under 160 characters.",
+    "image": "/images/prompts/technical-blog.jpg",
+    "tags": ["blog", "technical writing", "outline"]
+  },
+  {
+    "id": "3",
+    "title": "User Interview Script",
+    "slug": "user-interview-script",
+    "category": "research",
+    "prompt": "You are a UX researcher preparing a 30-minute user interview about [product area]. Participant profile: [role and context].\n\nWrite an interview guide with:\n- 2 warm-up questions (non-leading)\n- 5 discovery questions about current workflow and pain points\n- 3 follow-up probes for each main question\n- 1 closing question: \"What would make this a no-brainer for you?\"\n\nAvoid yes/no questions. Do not mention our solution until the final 5 minutes.",
+    "image": "/images/prompts/user-interview.jpg",
+    "tags": ["ux research", "interviews", "discovery"]
+  },
+  {
+    "id": "4",
+    "title": "Sprint Retrospective Facilitator",
+    "slug": "sprint-retrospective-facilitator",
+    "category": "productivity",
+    "prompt": "Facilitate a 45-minute sprint retrospective for a team of [team size]. Sprint context: [what shipped, what slipped].\n\nStructure:\n1. Set the stage (5 min) — goal and norms\n2. Gather data (10 min) — prompts for timeline review\n3. Generate insights (15 min) — group themes, dot-vote top 3\n4. Decide actions (10 min) — max 2 concrete improvements\n5. Close (5 min) — recap owners and deadlines\n\nProvide exact facilitator scripts and time-box reminders.",
+    "image": "/images/prompts/sprint-retro.jpg",
+    "tags": ["agile", "retrospective", "facilitation"]
+  },
+  {
+    "id": "5",
+    "title": "Landing Page Hero Copy",
+    "slug": "landing-page-hero-copy",
+    "category": "marketing",
+    "prompt": "Write hero section copy for a [product type] landing page. Company: [name]. Primary audience: [audience]. Main differentiator: [differentiator].\n\nDeliver:\n- Headline (max 10 words)\n- Subheadline (max 25 words)\n- Primary CTA button text\n- Secondary CTA text\n\nTone: professional and direct. No buzzwords like \"revolutionary\" or \"cutting-edge.\" Focus on the outcome the user gets.",
+    "image": "/images/prompts/landing-page-hero.jpg",
+    "tags": ["copywriting", "landing page", "conversion"]
+  },
+  {
+    "id": "6",
+    "title": "Pull Request Description",
+    "slug": "pull-request-description",
+    "category": "development",
+    "prompt": "Write a pull request description for the following change: [describe change].\n\nUse this structure:\n## Summary\nOne paragraph explaining what and why.\n\n## Changes\nBullet list of specific modifications.\n\n## Testing\nHow this was verified.\n\n## Screenshots\nPlaceholder note if UI changed.\n\nKeep it scannable. Link related issue if applicable: [issue number].",
+    "image": "/images/prompts/pull-request.jpg",
+    "tags": ["github", "documentation", "engineering"]
+  },
+  {
+    "id": "7",
+    "title": "Design Critique Framework",
+    "slug": "design-critique-framework",
+    "category": "design",
+    "prompt": "Provide structured feedback on a [screen type] design for [product]. Context: [user goal and constraints].\n\nEvaluate across:\n1. Clarity — is the primary action obvious?\n2. Hierarchy — does visual weight match importance?\n3. Consistency — alignment with common patterns\n4. Accessibility — contrast, touch targets, labels\n5. Edge cases — empty states, errors, loading\n\nFor each area: one strength, one improvement, one specific suggestion. Be constructive, not vague.",
+    "image": "/images/prompts/design-critique.jpg",
+    "tags": ["design review", "ux", "feedback"]
+  },
+  {
+    "id": "8",
+    "title": "Weekly Planning Template",
+    "slug": "weekly-planning-template",
+    "category": "productivity",
+    "prompt": "Help me plan my work week. Role: [role]. Top priorities this quarter: [priorities]. Meetings already scheduled: [list or estimate].\n\nOutput:\n- 3 outcomes for the week (measurable)\n- Daily focus blocks (morning deep work, afternoon meetings)\n- One thing to defer with a reason\n- Friday review prompts (what shipped, what blocked, what to adjust)\n\nKeep total planned work at 80% capacity to leave buffer.",
+    "image": "/images/prompts/weekly-planning.jpg",
+    "tags": ["planning", "time management", "priorities"]
+  },
+  {
+    "id": "9",
+    "title": "Competitive Analysis Brief",
+    "slug": "competitive-analysis-brief",
+    "category": "research",
+    "prompt": "Analyze [competitor name] relative to [our product]. Focus area: [feature or market segment].\n\nCover:\n1. Positioning — how they describe themselves\n2. Target customer — who they serve best\n3. Strengths — 3 genuine advantages\n4. Weaknesses — 3 gaps or complaints\n5. Pricing model — summary\n6. Opportunity — where we can differentiate\n\nUse publicly available information only. Cite assumptions clearly.",
+    "image": "/images/prompts/competitive-analysis.jpg",
+    "tags": ["competitive analysis", "strategy", "market research"]
+  },
+  {
+    "id": "10",
+    "title": "Newsletter Edition Planner",
+    "slug": "newsletter-edition-planner",
+    "category": "writing",
+    "prompt": "Plan one edition of a newsletter for [audience]. Topic focus: [theme]. Brand voice: [describe tone].\n\nInclude:\n- Subject line (3 options, under 45 chars)\n- Opening hook (2 sentences)\n- Main story (3 paragraphs)\n- One curated link with commentary\n- Closing CTA\n\nTotal length: 400–500 words. Write for skimmers — use short paragraphs and one subheading.",
+    "image": "/images/prompts/newsletter.jpg",
+    "tags": ["newsletter", "content", "email"]
+  },
+  {
+    "id": "11",
+    "title": "API Documentation Draft",
+    "slug": "api-documentation-draft",
+    "category": "development",
+    "prompt": "Write documentation for an API endpoint.\n\nEndpoint: [method] [path]\nPurpose: [what it does]\nAuth: [requirements]\nRequest body: [schema or example]\nResponse: [schema or example]\n\nStructure:\n- Overview (1 sentence)\n- Request parameters table\n- Example request (curl)\n- Example response (JSON)\n- Error codes with meanings\n- Rate limits if applicable\n\nWrite for a developer seeing this endpoint for the first time.",
+    "image": "/images/prompts/api-docs.jpg",
+    "tags": ["api", "documentation", "developer experience"]
+  },
+  {
+    "id": "12",
+    "title": "Social Media Campaign Calendar",
+    "slug": "social-media-campaign-calendar",
+    "category": "marketing",
+    "prompt": "Create a two-week social media content calendar for [brand/product]. Campaign goal: [goal]. Platforms: [list platforms].\n\nFor each post provide:\n- Day and platform\n- Post format (text, image, thread)\n- Copy draft\n- Hashtags (max 3, relevant only)\n- Goal (awareness, engagement, traffic)\n\nBalance promotional and value content 30/70. No engagement bait.",
+    "image": "/images/prompts/social-campaign.jpg",
+    "tags": ["social media", "content calendar", "campaign"]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "title": "How to Write Prompts That Scale Across Your Team",
+    "slug": "how-to-write-prompts-that-scale",
+    "description": "Consistency matters more than clever wording. Here is a simple framework we use to document prompts that anyone can pick up.",
+    "publishedAt": "2026-05-28",
+    "content": "When a prompt works for one person but fails for everyone else, the problem is rarely the model. It is usually missing context, unclear constraints, or inconsistent structure.\n\nWe use a four-part template for every shared prompt: role, context, task, and output format. The role sets expertise level. Context covers audience, product, and constraints. The task states exactly what to produce. Output format defines length, tone, and structure.\n\nStart by auditing prompts that already work. Copy the structure, not the wording. Replace specifics with bracketed placeholders like [product name] so teammates can adapt quickly.\n\nVersion prompts when you change them. A simple changelog at the top — date, author, what changed — prevents confusion when results shift.\n\nFinally, test with someone outside your team. If they get usable output on the first try without asking questions, the prompt is ready to publish."
+  },
+  {
+    "title": "Five Prompt Patterns for Better Marketing Copy",
+    "slug": "five-prompt-patterns-marketing-copy",
+    "description": "From audience framing to constraint-based drafts, these patterns help you move from blank page to usable copy faster.",
+    "publishedAt": "2026-05-14",
+    "content": "Marketing copy prompts fail when they ask for everything at once. These five patterns break the work into reliable steps.\n\nAudience framing: describe who reads this, what they want, and what they fear. Constraint-based drafts: set word limits, banned words, and required proof points before generating.\n\nVariation sets: ask for three versions with different angles — outcome-focused, problem-focused, and social proof — then combine the best lines.\n\nEdit passes: run a second prompt that only tightens and removes fluff without changing meaning.\n\nChannel adaptation: take one core message and reshape it for email subject lines, ad headlines, and landing page heroes.\n\nKeep a swipe file of prompts that produced copy you actually shipped. That library becomes your team's competitive advantage."
+  },
+  {
+    "title": "Building a Shared Prompt Library for Startups",
+    "slug": "building-shared-prompt-library",
+    "description": "What to include, how to organize categories, and when to retire prompts that no longer match your product.",
+    "publishedAt": "2026-04-30",
+    "content": "A prompt library is not a dump of everything you have tried. It is a curated set of templates tied to real workflows.\n\nOrganize by job-to-be-done, not by tool. Categories like marketing, writing, and research map to how people search when they are under deadline.\n\nEach entry needs a title, short description, the full prompt, tags, and an example output. Without the example, new hires cannot tell good from mediocre.\n\nAssign owners. Every prompt should have someone responsible for keeping it current. Review quarterly or after major product changes.\n\nRetire aggressively. Outdated prompts erode trust faster than a small library builds it. Archive with a note explaining why — that context saves future debate.\n\nMeasure usage, not vanity counts. Track which prompts get copied and which get ignored. Double down on what ships work."
+  },
+  {
+    "title": "Why Placeholder Variables Make Prompts Reusable",
+    "slug": "placeholder-variables-reusable-prompts",
+    "description": "Bracketed placeholders turn one-off prompts into templates your whole team can adapt in seconds.",
+    "publishedAt": "2026-04-12",
+    "content": "Hard-coded details make prompts brittle. The moment a product name or audience changes, the prompt needs a full rewrite.\n\nPlaceholders like [audience], [tone], and [word limit] separate structure from specifics. They signal what to customize and keep the skeleton intact.\n\nName placeholders clearly. [Product] is ambiguous if you run multiple lines. [Product name — consumer app] removes guesswork.\n\nProvide defaults in comments when helpful: [tone: professional and direct]. New users get guidance without cluttering the main prompt.\n\nDocument required vs optional placeholders at the top. Required fields prevent incomplete runs. Optional fields keep power users efficient.\n\nThis small habit is the difference between a personal note and infrastructure your company can rely on."
+  }
+]
