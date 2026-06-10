@@ -1,0 +1,12 @@
+[
+  {
+    "id": "img-004",
+    "title": "Floating Island Fantasy",
+    "slug": "floating-island-fantasy",
+    "category": "fantasy",
+    "prompt": "Epic fantasy landscape with floating islands above a misty valley, waterfalls falling into the clouds, ancient ruins on cliffs, soft volumetric light, painterly details, wide composition",
+    "negativePrompt": "modern buildings, logos, signature, text",
+    "image": "/images/prompts/floating-island.jpg",
+    "tags": ["fantasy", "landscape", "epic"]
+  }
+]

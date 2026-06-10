@@ -1,0 +1,80 @@
+import { Container } from "@/components/layout/Container";
+import { PromptCardImage } from "@/components/prompts/PromptCardImage";
+import { CopyPromptButton } from "@/components/prompts/CopyPromptButton";
+import { TagList } from "@/components/prompts/TagList";
+import { getPromptBySlug, getPromptExcerpt, getPrompts } from "@/lib/data/prompts";
+import { SITE_NAME } from "@/lib/constants";
+import { notFound } from "next/navigation";
+
+type Props = {
+  params: {
+    slug: string;
+  };
+};
+
+export async function generateMetadata({ params }: Props) {
+  const prompt = getPromptBySlug(params.slug);
+
+  if (!prompt) {
+    return {
+      title: `Prompt not found — ${SITE_NAME}`,
+      description: SITE_NAME,
+    };
+  }
+
+  const description = getPromptExcerpt(prompt);
+
+  return {
+    title: `${prompt.title} — ${SITE_NAME}`,
+    description,
+    openGraph: {
+      title: `${prompt.title} — ${SITE_NAME}`,
+      description,
+      images: [prompt.image],
+    },
+  };
+}
+
+export function generateStaticParams() {
+  return getPrompts().map((p) => ({ slug: p.slug }));
+}
+
+export default function PromptDetailPage({ params }: Props) {
+  const prompt = getPromptBySlug(params.slug);
+
+  if (!prompt) return notFound();
+
+  return (
+    <Container as="main" size="md" className="py-12">
+      <div className="grid gap-8 md:grid-cols-2">
+        <div>
+          <PromptCardImage src={prompt.image} alt={prompt.title} />
+        </div>
+
+        <div>
+          <h1 className="text-2xl font-bold">{prompt.title}</h1>
+
+          <div className="mt-4">
+            <TagList tags={prompt.tags} />
+          </div>
+
+          <div className="mt-6">
+            <CopyPromptButton text={prompt.prompt} />
+          </div>
+
+          <article className="prose prose-invert mt-6 max-w-none">
+            <h2 className="sr-only">Prompt</h2>
+            <pre className="whitespace-pre-wrap bg-background rounded-md p-4 text-sm">{prompt.prompt}</pre>
+
+            {prompt.negativePrompt ? (
+              <section className="mt-6">
+                <h3 className="text-sm font-semibold">Negative prompt</h3>
+                <pre className="whitespace-pre-wrap bg-background rounded-md p-4 text-sm mt-2">{prompt.negativePrompt}</pre>
+              </section>
+            ) : null}
+          </article>
+        </div>
+      </div>
+    </Container>
+  );
+}

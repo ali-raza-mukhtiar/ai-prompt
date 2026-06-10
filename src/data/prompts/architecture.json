@@ -1,0 +1,23 @@
+[
+  {
+    "id": "img-005",
+    "title": "Modern Minimalist Living Room",
+    "slug": "modern-minimalist-living-room",
+    "category": "architecture",
+    "prompt": "Interior render of a modern minimalist living room, natural light from floor-to-ceiling windows, neutral palette, textured fabrics, product photography style, 50mm, crisp shadows, realistic materials",
+    "negativePrompt": "cluttered, lowres, unnatural lighting",
+    "image": "/images/prompts/architecture/modern-minimalist-living-room.jpg",
+    "tags": ["interior", "photorealistic", "product photography"]
+  }
+  ,
+  {
+    "id": "img-016",
+    "title": "Floating Country Diorama — Aerial Poster",
+    "slug": "floating-country-diorama-aerial-poster",
+    "category": "architecture",
+    "prompt": "Create a 1:1 or 4:5 aspect-ratio, ultra-HD, hyper-realistic cinematic aerial poster of a floating miniature island shaped exactly like the real geographic outline of [COUNTRY NAME], suspended naturally above a vast sea of soft, volumetric clouds. The island must look like a physical miniature diorama with realistic terrain thickness, layered geological cross-sections, cliffs, rock strata, soil layers, grass, and visible elevation depth along the island edges. Automatically generate and place the most iconic landmarks, architecture, terrain features, and cultural elements of [COUNTRY NAME] in their geographically correct regions. Terrain must accurately reflect real biome distribution (mountains, rivers, coastlines, beaches, forests, deserts, lakes) as appropriate. If the country has coastline, include ultra-realistic water with crystal-clear turquoise shallow water near shores, deep blue ocean gradients, visible underwater terrain and shoreline fade, realistic reflections and refraction, gentle waves and foam, subsurface scattering and transparency. Embed massive bold white 3D letters spelling `[Country Name]` into the terrain, physically integrated with ground elevation and casting natural soft shadows. Add native animals, birds, biome-accurate vegetation, roads, bridges, cities or villages, waterfalls, rivers, mist, and environmental depth for storytelling. Lighting: cinematic golden hour with strong warm sunlight from the horizon, volumetric god rays through clouds, atmospheric haze, soft light scattering, cloud shadows on terrain, and glowing sunlight reflections on water. Atmosphere: volumetric clouds, depth fog, subtle mist, and realistic aerial perspective. Camera: high-altitude aerial 3/4 perspective, slightly angled, centered composition, entire island fully visible. Color grading: rich cinematic colors, vibrant but natural, HDR, travel-poster quality. Render quality: ultra-photorealistic, Unreal Engine 5 / Octane style, PBR, GI, AO, subsurface scattering, ultra-detailed textures, sharp focus, 8K. Style: hyper-real miniature world, cinematic travel poster, premium professional finish.",
+    "negativePrompt": "lowres, blurry, watermark, text overlays, deformed geography, unrealistic proportions, logos",
+    "image": "/images/prompts/architecture/floating-country-diorama-aerial-poster.png",
+    "tags": ["architecture", "diorama", "aerial", "poster"]
+  }
+]

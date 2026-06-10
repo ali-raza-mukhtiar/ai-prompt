@@ -1,0 +1,33 @@
+[
+  {
+    "id": "img-006",
+    "title": "Fantasy Character Concept",
+    "slug": "hooded-ranger-leather-armor-bow-character-design",
+    "category": "character-design",
+    "prompt": "Create a high-end fantasy character concept sheet using the uploaded reference photo as the exact facial reference. Preserve the person's face, identity, facial structure, skin tone, eyes, nose, lips, jawline, hairstyle, and natural facial proportions exactly as in the uploaded image. Do NOT redesign, beautify, age, de-age, stylize, or alter the face. Maintain a realistic and natural human appearance — the face must look like the same real person from the reference image with a natural, believable expression.\n\nCharacter Design: A weathered ranger wearing layered medieval leather armor, detailed belts, pouches, gloves, and a hooded cloak. Equipped with an ornate handcrafted bow, quiver filled with arrows, survival gear, and realistic wilderness equipment.\n\nConcept Art Layout: Full-body front view; Full-body back view; Side profile view; Detailed portrait close-up; Weapon design study; Armor and material texture studies; Character notes and visual callouts.\n\nArt Style: Premium AAA game concept art, realistic fantasy design, medieval textures, high-detail linework, intricate craftsmanship, realistic leather, cloth, metal, and wood materials.\n\nMood: Stoic, experienced, resilient wilderness ranger. Lighting: Professional studio-quality concept art lighting with realistic shadows and depth. Quality: Ultra-detailed, sharp focus, realistic anatomy, natural face preservation, cinematic fantasy concept sheet, 8K quality, production-ready character design.",
+    "negativePrompt": "do not change identity, do not alter face, do not stylize, do not make cartoonish or anime, avoid facial distortion, exaggerated features, unrealistic skin, lowres, blurry, watermark, text, logo",
+    "image": "/images/prompts/character-design/hooded-ranger-leather-armor-bow-character-design.png",
+    "tags": ["character", "concept", "fantasy"]
+  },
+  {
+    "id": "img-014",
+    "title": "Editorial Fashion — Character Design",
+    "slug": "editorial-fashion-character-design",
+    "category": "character-design",
+    "prompt": "Ultra-realistic high-end fashion editorial portrait of an adult man, 100% using the uploaded reference image for exact face, identity, facial structure, and expression (no changes or stylization). The subject is leaning casually against a tall white rectangular pedestal in a minimal studio environment. Pose must match the reference exactly: body angled sideways, left hip resting on the pedestal, one hand casually placed inside the trouser pocket, the other relaxed by the thigh. One leg straight on the ground, the other slightly bent at the knee, feet crossed naturally at the ankles. He is wearing a tailored light grey textured suit with slim-fit trousers and a matching blazer, paired with a white button-down shirt worn casually open at the collar (no tie). Black leather loafers with a visible ankle gap, clean and elegant styling. Facial details preserved from the reference: sharp masculine jawline, light stubble beard, defined cheekbones, neatly styled dark hair swept back. Expression is serious and calm, eyes looking slightly off-camera to the side. Lighting is dramatic with hard side lighting from a single direction, creating strong, sharp shadows and a clear silhouette shadow of the subject projected onto the wall behind him. High-contrast light-and-shadow geometry enhances the cinematic editorial mood. Background consists of a smooth dark grey studio wall and floor, minimalist and distraction-free, with no props other than the pedestal. Luxury fashion magazine aesthetic, ultra-sharp focus, realistic skin texture, fine fabric details, cinematic contrast. DSLR photography look with an 85mm lens, shallow depth of field, muted neutral color grading. Vertical composition, premium editorial quality, 8K photorealism.",
+    "negativePrompt": "lowres, blurry, watermark, text, logo, deformed features, unrealistic proportions",
+    "image": "/images/prompts/character-design/young-man-grey-suit-fashion-portrait.jpg",
+    "tags": ["character-design", "fashion", "editorial"]
+  }
+  ,
+  {
+    "id": "img-020",
+    "title": "Studio Full-Body Brand Portrait",
+    "slug": "studio-full-body-brand-portrait-4x5-8k",
+    "category": "character-design",
+    "prompt": "Create an ultra-realistic, full-body studio portrait in 4:5 aspect ratio, 8K resolution.\n\nSCENE STRUCTURE (CRITICAL)\nA seamless floor and wall of the SAME light gray color (studio cyclorama). Subject is standing on the floor and slightly leaning against the wall. Floor-wall connection must be clearly visible (no floating subject).\n\nCOMPOSITION (LOCKED)\nVertical 4:5 aspect ratio. Subject on the left side (full-body visible). Right side reserved for text + vector portrait. Clean negative space, premium balance.\n\nPOSE\nRelaxed standing pose. One leg crossed naturally in front. Hands in pockets. Body slightly leaning back on wall. Natural, confident posture.\n\nLIGHTING (IMPORTANT)\nLeft side (subject): brighter soft white light. Right side: slightly off white. Smooth light falloff left → right. Subtle realistic shadow of subject on wall.\n\nOUTFIT\nWhite button-up shirt. Tailored navy trousers. Brown leather formal shoes. Small lapel mic.\n\nTEXT (TOP RIGHT)\nLarge bold title (e.g., AI prompt with ALI). Smaller thin subtitle: PROMPT DESIGNER. Modern sans-serif, clean alignment.\n\nVECTOR PORTRAIT (RIGHT SIDE, BELOW TEXT)\nFace and upper chest only. Sharp angular lines. Polygonal, geometric construction. Minimal, modern graphic style. High contrast black & white. Align correctly.\n\nSTYLE & QUALITY\nUltra-realistic subject. Clean branding + graphic integration. Minimal, premium aesthetic. 8K, sharp details.\n\nKeep the face and identity 100% identical to the reference image. Do not change or alter identity.",
+    "negativePrompt": "do not change identity, do not alter face, no identity changes, lowres, blurry, watermark, text, logo, deformed features, cartoon, anime, extra limbs",
+    "image": "/images/prompts/character-design/studio-full-body-brand-portrait.jpg",
+    "tags": ["character-design", "studio", "portrait", "8k", "branding"]
+  }
+]

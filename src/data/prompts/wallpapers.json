@@ -1,0 +1,12 @@
+[
+  {
+    "id": "img-011",
+    "title": "Abstract Colorful Wallpaper",
+    "slug": "abstract-colorful-wallpaper",
+    "category": "wallpapers",
+    "prompt": "High-resolution abstract wallpaper with flowing gradients, organic shapes, vibrant but balanced palette, seamless composition for large displays",
+    "negativePrompt": "text, logos, lowres",
+    "image": "/images/prompts/abstract-wallpaper.jpg",
+    "tags": ["wallpaper", "abstract", "colorful"]
+  }
+]

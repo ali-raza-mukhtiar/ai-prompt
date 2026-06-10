@@ -1,0 +1,35 @@
+[
+  {
+    "id": "img-007",
+    "title": "Polar cinematic product campaign",
+    "slug": "Polar-cinematic-product-campaign",
+    "category": "product-photography",
+    "prompt": "Polar cinematic product campaign. Create a high-quality AI image inspired by this reference style. Category: Product and brand. Model style: GPT Image. Visual keywords: product, food. Preserve the strongest composition, lighting, typography, and editorial polish while making the final result original, detailed, and production-ready.",
+    "negativePrompt": "reflections of studio equipment, watermark, text",
+    "image": "/images/prompts/product-photography/polar-cinematic-product-campaign.jpg",
+    "tags": ["product", "studio", "commercial"]
+  },
+  {
+  "id": "img-008",
+  "title": "Plush Beverage Can Pop Art",
+  "slug": "plush-beverage-can-pop-art",
+  "category": "product-photography",
+  "prompt": "A beverage can branded [BRAND NAME], entirely made from vibrant, fluffy plush fabric, positioned centrally against a soft, plush background in the signature colors of [BRAND NAME].Bold Pop Art and Memphis design style, playful yet premium aesthetic.Bright, clean studio lighting that strongly emphasizes the plush texture, visible fibers, softness, and tactile depth.Sharp focus, high color saturation, smooth shadows, modern commercial product shot, minimal composition, ultra-high resolution.",
+  "negativePrompt": "watermark, text, reflections of studio equipment, lowres, noisy",
+  "model": "Midjourney v7",
+  "aspectRatio": "1:1",
+  "image": "/images/prompts/product-photography/plush-beverage-can-pop-art.png",
+  "featured": true,
+  "tags": [
+    "product",
+    "plush",
+    "beverage-can",
+    "pop-art",
+    "memphis-design",
+    "commercial",
+    "branding"
+  ],
+  "seoTitle": "Plush Beverage Can Pop Art AI Image Prompt",
+  "seoDescription": "Generate a vibrant plush beverage can product shot with Pop Art and Memphis design aesthetics, premium studio lighting, and commercial-quality details."
+}
+]

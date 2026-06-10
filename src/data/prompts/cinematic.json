@@ -1,0 +1,12 @@
+[
+  {
+    "id": "img-003",
+    "title": "Cinematic Desert Chase",
+    "slug": "cinematic-desert-chase",
+    "category": "cinematic",
+    "prompt": "{\"composition\":{\"framing\":\"wide cinematic vertical shot (9:16), low angle tracking action\",\"subject_position\":\"running from left to right, centered in frame\",\"depth\":\"strong depth, sharp subject with blurred desert background\"},\"subject\":{\"type\":\"young adult male\",\"action\":\"running at full speed while looking back over shoulder\",\"expression\":\"intense, determined, stressed\",\"appearance\":\"wind-swept hair, dusty face, sweat, athletic build\"},\"clothing\":{\"outfit\":\"beige tactical desert clothes, dusty and slightly torn\",\"footwear\":\"heavy boots kicking sand\",\"accessories\":\"small backpack bouncing with motion\"},\"environment\":{\"scene\":\"vast desert with dunes and dust storm\",\"background\":\"sunset sky, chasing vehicles, flying sand\",\"foreground\":\"sand particles and motion trails\"},\"lighting\":{\"style\":\"cinematic golden hour\",\"effect\":\"strong rim light, long shadows, warm tones\"},\"style\":{\"look\":\"Hollywood action movie frame\",\"mood\":\"high tension chase, dramatic, cinematic realism\"},\"motion\":{\"effects\":\"sand explosion, wind streaks, motion blur\"}}",
+    "negativePrompt": "cartoon, low detail, unrealistic proportions",
+    "image": "/images/prompts/cinematic/cinematic-desert-chase.jpg",
+    "tags": ["action", "cinematic", "vehicles"]
+  }
+]

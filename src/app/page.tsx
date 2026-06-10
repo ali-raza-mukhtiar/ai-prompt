@@ -10,10 +10,10 @@ import {
 import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Curated AI Prompts for Teams",
+  title: "Discover High-Quality AI Image Prompts",
   description: SITE_DESCRIPTION,
   openGraph: {
-    title: `Curated AI Prompts for Teams | ${SITE_NAME}`,
+    title: `Discover High-Quality AI Image Prompts | ${SITE_NAME}`,
     description: SITE_DESCRIPTION,
     type: "website",
   },

@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import { cn } from "@/lib/cn";
 
-const PLACEHOLDER_IMAGE = "/images/placeholders/prompt.svg";
+const PLACEHOLDER_IMAGE = "/images/prompts/realistic-portrait/prompt.svg";
 
 type PromptCardImageProps = {
   src: string;
@@ -19,7 +19,7 @@ export function PromptCardImage({ src, alt, className }: PromptCardImageProps) {
   return (
     <div
       className={cn(
-        "relative aspect-[16/9] w-full overflow-hidden bg-background",
+        "relative aspect-[4/5] w-full overflow-hidden bg-background",
         className,
       )}
     >

@@ -5,14 +5,21 @@
 /* -------------------------------------------------------------------------- */
 
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
-  --surface: #ffffff;
-  --muted: #64748b;
-  --muted-foreground: #475569;
-  --border: #e2e8f0;
-  --accent: #1d4ed8;
-  --accent-foreground: #ffffff;
+  /* Core palette */
+  --primary-black: #0F172A;
+  --primary-white: #FFFFFF;
+  --primary-blue: #2563EB;
+  --accent-pink: #EC4899;
+
+  --background: var(--primary-white);
+  --foreground: var(--primary-black);
+  --surface: var(--primary-white);
+  --muted: #6B7280; /* gray-500 */
+  --muted-foreground: #4B5563; /* gray-600 */
+  --border: #E6E6E6; /* light gray */
+  --accent: var(--primary-blue);
+  --accent-foreground: var(--primary-white);
+  --accent-pink: var(--accent-pink);
 
   /* Spacing scale */
   --space-1: 0.25rem;
@@ -104,6 +111,92 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* -------------------------------------------------------------------------- */
+/* Interactive helpers                                                         */
+/* -------------------------------------------------------------------------- */
+
+.nav-link {
+  position: relative;
+  color: var(--foreground);
+  text-decoration: none;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 2px;
+  background: var(--accent-pink);
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: transform 220ms ease;
+}
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+.nav-link--active {
+  color: var(--accent);
+}
+
+.button-primary {
+  transition: box-shadow 180ms ease, transform 120ms ease;
+}
+.button-primary:hover {
+  box-shadow: 0 8px 30px rgba(236, 72, 153, 0.06);
+  transform: translateY(-1px);
+}
+.button-secondary:hover {
+  box-shadow: 0 6px 20px rgba(236, 72, 153, 0.04);
+}
+
+.prompt-card-hover {
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.prompt-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+.category-icon {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background: var(--accent);
+  display: inline-block;
+  margin-right: 8px;
+  transition: background 160ms ease;
+}
+.category-card.group:hover .category-icon {
+  background: var(--accent-pink);
+}
+
+.featured-badge {
+  display: inline-block;
+  background: var(--accent-pink);
+  color: var(--primary-white);
+  font-size: 0.6875rem;
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+
+.reading-time-badge {
+  display: inline-block;
+  background: var(--accent-pink);
+  color: var(--primary-white);
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+/* Footer adjustments */
+.site-footer {
+  background: var(--foreground);
+  color: var(--surface);
+}
+.site-footer a { color: var(--surface); }
+.site-footer a:hover { color: var(--surface); }
 
 /* -------------------------------------------------------------------------- */
 /* Typography                                                                 */

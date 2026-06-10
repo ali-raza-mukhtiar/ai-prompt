@@ -1,0 +1,22 @@
+[
+  {
+    "id": "img-012",
+    "title": "Photo to Anime Character",
+    "slug": "photo-to-anime-character",
+    "category": "anime",
+    "prompt": "Transform the uploaded photo into a stunning high-quality anime character while preserving the person's facial features, identity, hairstyle, expression, and pose. Create a beautiful modern anime art style inspired by top-tier Japanese animation. Large expressive eyes, detailed hair strands, smooth skin shading, vibrant colors, cinematic lighting, ultra-detailed artwork, sharp focus, clean line art, dynamic composition, professional anime illustration, masterpiece quality, highly detailed background matching the original scene, depth of field, perfect anatomy, 8k resolution, trending on ArtStation, anime movie quality.",
+    "negativePrompt": "blurry, low quality, distorted face, extra fingers, extra limbs, bad anatomy, ugly, deformed eyes, cropped, watermark, text, logo, oversaturated, duplicate features, noise, pixelated, poorly drawn face",
+    "image": "/images/prompts/anime/photo-to-anime-character.png",
+    "tags": ["anime", "portrait", "photo-to-anime"]
+  },
+  {
+    "id": "img-001",
+    "title": "Neo-Tokyo Street Samurai",
+    "slug": "neo-tokyo-street-samurai",
+    "category": "anime",
+    "prompt": "Ultra-detailed cyberpunk street scene at night, neon signs in Japanese, a lone samurai with a glowing katana, rain-slicked streets reflecting light, cinematic wide-angle, volumetric fog, intricate armor textures, dramatic rim lighting, 35mm lens, high detail",
+    "negativePrompt": "blurry, lowres, watermark, text, deformed anatomy",
+    "image": "/images/prompts/anime/neo-tokyo-street-samurai.jpg",
+    "tags": ["cyberpunk", "neon", "samurai"]
+  }
+]

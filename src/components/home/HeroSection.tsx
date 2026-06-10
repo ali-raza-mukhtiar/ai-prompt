@@ -7,11 +7,11 @@ export function HeroSection() {
       <Container className="section">
         <div className="mx-auto max-w-3xl text-center">
           <h1 id="hero-heading" className="text-foreground">
-            Find the right prompt for every task
+            Discover High-Quality AI Image Prompts
           </h1>
           <p className="text-lead mx-auto mt-6 max-w-2xl text-muted-foreground">
-            Browse curated prompts for marketing, writing, development, and
-            more. Built for teams who need reliable results, not guesswork.
+            Browse curated prompts and image examples for Midjourney, ChatGPT
+            Image, Stable Diffusion and more.
           </p>
 
           <form
@@ -27,7 +27,7 @@ export function HeroSection() {
               id="prompt-search"
               name="q"
               type="search"
-              placeholder="Search by topic or keyword..."
+              placeholder="Search prompts by title, category, or tag..."
               className="h-11 flex-1 rounded-md border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
             />
             <Button type="submit" className="h-11 shrink-0 px-6">

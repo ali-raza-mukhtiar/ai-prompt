@@ -20,7 +20,7 @@ export function BlogPostCard({ post }: BlogPostCardProps) {
       <div className="flex items-center gap-3 text-xs text-muted">
         <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
         <span aria-hidden="true">&middot;</span>
-        <span>{post.readTime}</span>
+        <span className="reading-time-badge">{post.readTime}</span>
       </div>
       <h3 className="mt-4 text-lg text-foreground">
         <Link

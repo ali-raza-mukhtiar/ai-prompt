@@ -1,0 +1,12 @@
+[
+  {
+    "id": "img-010",
+    "title": "Misty Coastal Landscape",
+    "slug": "misty-coastal-landscape",
+    "category": "landscapes",
+    "prompt": "Misty coastal cliffs at dawn, soft pastel color palette, long exposure feel, birds in the distance, atmospheric perspective, high-resolution texture",
+    "negativePrompt": "people, buildings, text",
+    "image": "/images/prompts/coastal-cliffs.jpg",
+    "tags": ["landscape", "misty", "coast"]
+  }
+]

@@ -14,17 +14,16 @@ export function FeaturedPromptsSection() {
       <Container className="section">
         <SectionHeader
           id="featured-prompts-heading"
-          title="Featured prompts"
-          description="Hand-picked templates used by teams to ship faster."
-          viewAllHref="/categories"
-          viewAllLabel="View all prompts"
+          title="Featured image prompts"
+          description="Curated examples and image previews from our collection."
+          
           className="mb-10"
         />
 
         <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {prompts.map((prompt) => (
             <li key={prompt.id}>
-              <PromptCard prompt={prompt} />
+              <PromptCard prompt={prompt} isFeatured />
             </li>
           ))}
         </ul>

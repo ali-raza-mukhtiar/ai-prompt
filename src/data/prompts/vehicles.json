@@ -1,0 +1,34 @@
+[
+  {
+    "id": "img-009",
+    "title": "Futuristic Sports Car",
+    "slug": "futuristic-sports-car",
+    "category": "vehicles",
+    "prompt": "High-detail concept of a futuristic sports car, low-slung, carbon fiber body, studio lighting, reflective surfaces, motion blur background, 35mm",
+    "negativePrompt": "low detail, toy-like proportions",
+    "image": "/images/prompts/vehicles/futuristic-sports-car.jpg",
+    "tags": ["car", "concept", "vehicles"]
+  }
+  ,
+  {
+    "id": "img-019",
+    "title": "Toyota Supra MK4 — Owner Portrait",
+    "slug": "supra-mk4-owner-portrait",
+    "category": "vehicles",
+    "prompt": "Use the uploaded reference image as the ONLY identity source. Absolute identity preservation: keep the face 100% identical to the reference (exact facial features, hairstyle, skin tone, expression, facial structure, facial hair, and natural skin texture). No beautification, no face reshaping, no AI face modifications. Full car composition: show the entire white Toyota Supra MK4 from front bumper to rear bumper; the complete vehicle must be fully visible inside the frame with no cropped car parts, wheels, or roof. The Supra should occupy ~50% of the image width. Person and car both clearly visible. Subject position: standing directly beside the driver's side door, shoulder lightly touching the car, body leaning naturally against the Supra, hands in hoodie pockets, wearing the exact clothing from the reference (dark grey oversized hoodie). Scene: underground parking garage with large colorful graffiti walls, luxury urban car-meet atmosphere, premium automotive aesthetic. Pose: full-body, relaxed confident stance, looking directly into camera. Camera: wide automotive portrait shot, eye-level, 50mm DSLR lens, horizontal framing, subject and car centered together, professional automotive composition. Lighting: cinematic night lighting with soft realistic shadows, natural highlights on face, reflections on the white Supra body, premium photoshoot lighting. Color grading: dark cinematic mood, cool blue tones, high contrast, slight desaturation, luxury Instagram aesthetic. Quality: ultra-realistic, 8K RAW photo, photorealistic skin texture, highly detailed Toyota Supra MK4, professional automotive magazine quality. Priority order: 1) exact face preservation, 2) full Toyota Supra visible, 3) person standing directly beside car, 4) realistic cinematic photography.",
+    "negativePrompt": "different face, face swap, altered identity, beautified face, smooth skin, AI face, distorted face, cartoon, anime, illustration, painting, unrealistic lighting, blurry face, low quality, cropped car, partial car, cut-off wheels, cut-off roof, zoomed car, subject far from vehicle, incorrect vehicle, face morphing, extra limbs, extra fingers",
+    "image": "/images/prompts/vehicles/supra-mk4-owner-portrait.png",
+    "tags": ["car", "portrait", "supra", "vehicles"]
+  }
+  ,
+  {
+    "id": "img-021",
+    "title": "High-Angle Lifestyle — Mustang Portrait",
+    "slug": "high-angle-mustang-lifestyle-portrait-4x5-8k",
+    "category": "vehicles",
+    "prompt": "Create a hyper-realistic, ultra-detailed 8K high-angle lifestyle portrait, captured in a vertical 4:5 aspect ratio.\n\nOutfit:\nHe is wearing a plain black hoodie (no logos, clean and smooth fabric, no creases), paired with slightly loose black denim jeans and crisp white low-top sneakers. Accessories include sleek black sunglasses. The outfit must appear clean, structured, and premium with visible fabric texture and natural folds.\n\nPose & Expression:\nHe stands with a relaxed posture, slightly leaning back against the car’s front right headlight. Both hands are tucked inside the hoodie pocket. Legs are casually crossed at the ankles. His head is tilted slightly upward, looking directly toward the camera with a calm, confident, neutral expression.\n\nComposition & Framing:\nHigh-angle elevated shot (~60° downward), camera positioned above subject, looking diagonally down. Full-body framing with no cropping of head or feet. Subject is centered in the lower-middle of the frame, with the car occupying the background diagonally. Maintain balanced negative space around the subject and clear visual hierarchy (subject first, car second).\n\nVehicle Details:\nA detailed blue Ford Mustang GT Convertible positioned behind the subject at a slight diagonal angle. The car features a contrasting red fabric soft top, black multi-spoke alloy wheels, visible front grille with the Mustang emblem, and subtle hood vents. The paint should have realistic reflections and gloss.\n\nEnvironment & Background:\nGround is composed of clean, interlocking hexagonal stone pavement. On the left side, a strip of green grass bordered by a smooth concrete curb. Subtle modern architectural elements visible in the background. Palm tree leaves partially enter from the top corners, naturally framing the shot.\n\nLighting:\nNatural daylight (not too bright) with soft, even illumination; no harsh shadows or underexposure. Light reflections should appear naturally on the car surface. Face and outfit must remain clearly visible with balanced exposure.\n\nCamera & Quality:\nShot on a high-end DSLR or Sony A7R V, sharp focus, realistic depth, natural color grading, ultra-detailed textures, cinematic clarity, no distortion.\n\nNo eye-level or low-angle shots; angles below 60° are not allowed.",
+    "negativePrompt": "lowres, blurry, watermark, text, logo, distorted vehicle, wrong car model, incorrect reflections, heavy shadows, underexposed face, extra limbs, deformed features, cartoon, anime",
+    "image": "/images/prompts/vehicles/high-angle-mustang-lifestyle-portrait-4x5-8k.png",
+    "tags": ["vehicles", "portrait", "mustang", "lifestyle", "8k"]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  
+  
+  {
+    "id": "img-017",
+    "title": "Minimal Premium Logo — {BUSINESS_NAME}",
+    "slug": "minimal-premium-logo-business-name",
+    "category": "logo-design",
+    "prompt": "Create a professional modern logo for {BUSINESS_NAME}, minimalist vector design, clean typography, premium branding, simple icon, white background, scalable SVG-ready composition, monochrome and color variations, centered composition, negative space usage, balanced proportions, clean outlines, no watermarks or extraneous text, high quality logo.",
+    "negativePrompt": "lowres, blurry, watermark, photorealistic textures, complex gradients, text overlays, distorted proportions",
+    "image": "/images/prompts/logo-design/minimal-premium-logo-business-name.jpg",
+    "tags": ["logo", "branding", "minimal", "vector"]
+  },
+  {
+    "id": "img-018",
+    "title": "Flat Animal Head Logo — {BRAND_NAME}",
+    "slug": "flat-animal-head-logo-brand-name",
+    "category": "logo-design",
+    "prompt": "Flat vector logo of a {ANIMAL} head, minimal geometric graphic design, clean negative space, modern branding, inspired by world-class identity design, bold and memorable silhouette, professional vector mark, premium logo design, black and white, scalable SVG style, centered composition, brand name \"{BRAND_NAME}\" integrated with clean modern typography, no realistic photo details, no shading, no 3D effects, no gradients.",
+    "negativePrompt": "photorealistic, shading, gradients, 3D effects, lowres, blurry, watermark, text overlays",
+    "image": "/images/prompts/logo-design/flat-animal-head-logo-brand-name.jpg",
+    "tags": ["logo", "branding", "vector", "minimal"]
+  }
+]

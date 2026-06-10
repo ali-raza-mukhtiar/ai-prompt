@@ -1,9 +1,31 @@
 import categoriesData from "@/data/categories.json";
-import promptsData from "@/data/prompts.json";
+import animePrompts from "@/data/prompts/anime.json";
+import realisticPortraitPrompts from "@/data/prompts/realistic-portrait.json";
+import cinematicPrompts from "@/data/prompts/cinematic.json";
+import fantasyPrompts from "@/data/prompts/fantasy.json";
+import architecturePrompts from "@/data/prompts/architecture.json";
+import characterDesignPrompts from "@/data/prompts/character-design.json";
+import productPhotographyPrompts from "@/data/prompts/product-photography.json";
+import logoDesignPrompts from "@/data/prompts/logo-design.json";
+import vehiclesPrompts from "@/data/prompts/vehicles.json";
+import landscapesPrompts from "@/data/prompts/landscapes.json";
+import wallpapersPrompts from "@/data/prompts/wallpapers.json";
 import type { Category, CategoryWithCount, Prompt } from "@/types";
 
 const categories = categoriesData as Category[];
-const prompts = promptsData as Prompt[];
+const prompts = ([
+  ...animePrompts,
+  ...realisticPortraitPrompts,
+  ...cinematicPrompts,
+  ...fantasyPrompts,
+  ...architecturePrompts,
+  ...characterDesignPrompts,
+  ...productPhotographyPrompts,
+  ...logoDesignPrompts,
+  ...vehiclesPrompts,
+  ...landscapesPrompts,
+  ...wallpapersPrompts,
+] as unknown) as Prompt[];
 
 export function getCategories(): Category[] {
   return categories;

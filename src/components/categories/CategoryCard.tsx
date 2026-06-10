@@ -12,7 +12,7 @@ export function CategoryCard({ category, className }: CategoryCardProps) {
   return (
     <article
       className={cn(
-        "flex h-full flex-col rounded-lg border border-border bg-surface p-6 transition-colors hover:border-muted",
+        "category-card group flex h-full flex-col rounded-lg border border-border bg-surface p-6 transition-colors hover:border-muted",
         className,
       )}
     >
@@ -21,6 +21,7 @@ export function CategoryCard({ category, className }: CategoryCardProps) {
           href={`/categories/${category.slug}`}
           className="hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
         >
+          <span className="category-icon" aria-hidden />
           {category.name}
         </Link>
       </h2>

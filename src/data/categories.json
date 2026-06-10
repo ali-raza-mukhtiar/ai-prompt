@@ -1,32 +1,14 @@
 [
-  {
-    "name": "Marketing",
-    "slug": "marketing",
-    "description": "Campaigns, copy, and growth experiments."
-  },
-  {
-    "name": "Writing",
-    "slug": "writing",
-    "description": "Articles, newsletters, and long-form content."
-  },
-  {
-    "name": "Development",
-    "slug": "development",
-    "description": "Code reviews, docs, and architecture notes."
-  },
-  {
-    "name": "Design",
-    "slug": "design",
-    "description": "Briefs, critiques, and UX research plans."
-  },
-  {
-    "name": "Productivity",
-    "slug": "productivity",
-    "description": "Planning, meetings, and personal workflows."
-  },
-  {
-    "name": "Research",
-    "slug": "research",
-    "description": "Interviews, surveys, and competitive analysis."
-  }
+  { "name": "Anime", "slug": "anime", "description": "Stylized anime characters, scenes and illustrations." },
+  { "name": "Realistic Portrait", "slug": "realistic-portrait", "description": "High-detail, photorealistic portraits and headshots." },
+  { "name": "Cinematic", "slug": "cinematic", "description": "Wide, filmic compositions with dramatic lighting." },
+  { "name": "Fantasy", "slug": "fantasy", "description": "World-building scenes, creatures, and magical environments." },
+  { "name": "Architecture", "slug": "architecture", "description": "Buildings, interiors, and environmental design." },
+  { "name": "Character Design", "slug": "character-design", "description": "Concepts for characters, outfits, and personalities." },
+  { "name": "Product Photography", "slug": "product-photography", "description": "Clean, commercial-style product shots and still lifes." },
+  { "name": "Logo Design", "slug": "logo-design", "description": "Minimal and stylized logo concepts and marks." },
+  { "name": "Vehicles", "slug": "vehicles", "description": "Concept cars, aircraft, and mecha designs." },
+  { "name": "Landscapes", "slug": "landscapes", "description": "Natural vistas, terrains, and atmospheric scenes." },
+  { "name": "Wallpapers", "slug": "wallpapers", "description": "High-resolution compositions designed for desktop and mobile backgrounds." }
+  ,{ "name": "Old Photo Restoration", "slug": "old-photo-restoration", "description": "Techniques and pipelines for restoring, reconstructing, and archiving vintage or damaged photographs." }
 ]

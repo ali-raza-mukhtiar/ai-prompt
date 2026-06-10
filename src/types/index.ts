@@ -9,6 +9,7 @@ export type Prompt = {
   slug: string;
   category: string;
   prompt: string;
+  negativePrompt?: string;
   image: string;
   tags: string[];
 };

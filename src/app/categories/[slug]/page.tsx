@@ -55,6 +55,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   }
 
   const prompts = getPromptsByCategory(slug);
+  const gridClass = slug === "anime"
+    ? "grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3"
+    : "grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4";
 
   return (
     <main>
@@ -82,7 +85,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         </header>
 
         {prompts.length > 0 ? (
-          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <ul className={gridClass}>
             {prompts.map((prompt) => (
               <li key={prompt.id}>
                 <PromptCard prompt={prompt} showCategory={false} />

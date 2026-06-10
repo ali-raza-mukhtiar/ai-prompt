@@ -1,0 +1,22 @@
+[
+  {
+    "id": "img-002",
+    "title": "Golden Hour Realistic Portrait",
+    "slug": "golden-hour-realistic-portrait",
+    "category": "realistic-portrait",
+    "prompt": "Photorealistic mid-length portrait of a young adult in golden hour sunlight. Soft, warm rim and frontal fill light, natural makeup, visible skin texture and hair detail, shallow depth of field (85mm), cinematic color grading with warm highlights and natural shadows, high-resolution, sharp focus on eyes with gentle bokeh background, modern lifestyle aesthetic.",
+    "negativePrompt": "overprocessed, unnatural skin, heavy filters, blur",
+    "image": "/images/prompts/realistic-portrait/golden-hour-realistic-portrait.png",
+    "tags": ["portrait", "photorealistic", "golden hour"]
+  },
+  {
+    "id": "img-013",
+    "title": "Custom Realistic Portrait — Seascape",
+    "slug": "custom-realistic-portrait-seascape",
+    "category": "realistic-portrait",
+    "prompt": "{ \"composition\": { \"framing\": \"mid-length portrait from upper thighs to head\", \"orientation\": \"vertical\", \"camera_angle\": \"eye-level\", \"subject_position\": \"left third of the frame\", \"balance\": \"subject balanced against expansive seascape on the right\", \"depth\": \"moderate depth with clear foreground subject and distant cityscape background\" }, \"subject\": { \"gender_presentation\": \"male-presenting\", \"age_range\": \"young adult\", \"pose\": \"relaxed standing posture, torso slightly angled, head turned to the left\", \"expression\": \"neutral to contemplative\", \"gaze_direction\": \"looking on camera\", \"hair\": { \"color\": \"dark brown to black\", \"style\": \"thick, voluminous, tousled, slightly wavy\" }, \"skin_tone\": \"light to medium\", \"facial_features\": \"defined jawline, straight nose, full lips, clean-shaven\" }, \"clothing_and_accessories\": { \"top\": { \"type\": \"long-sleeve button-up shirt\", \"color\": \"black\", \"fit\": \"slim to regular fit\", \"details\": \"top buttons undone, lightweight fabric with subtle drape\" }, \"bottom\": { \"type\": \"trousers\", \"color\": \"dark navy or black\", \"fit\": \"slim fit\" }, \"accessories\": [ { \"item\": \"sunglasses\", \"color\": \"black\", \"held_in\": \"right hand\" }, { \"item\": \"wristwatch\", \"material\": \"metal\", \"worn_on\": \"left wrist\" }, { \"item\": \"bracelet\", \"color\": \"red\", \"worn_on\": \"right wrist\" } ] }, \"environment\": { \"setting\": \"outdoor, on a boat or waterfront deck\", \"foreground\": \"white deck surface\", \"background\": { \"elements\": [ \"open sea with visible water texture\", \"distant coastal cityscape\", \"cloud-filled sky\" ], \"horizon_line\": \"visible and level\" } }, \"lighting\": { \"type\": \"natural daylight\", \"quality\": \"soft and diffused\", \"direction\": \"overhead with slight frontal illumination\", \"shadows\": \"minimal, soft-edged\" }, \"color_palette\": { \"dominant_colors\": [ \"deep blue\"",
+    "negativePrompt": "blurry, low quality, distorted face, bad anatomy, extra limbs, watermark, text, logo, lowres, deformed features",
+    "image": "/images/prompts/realistic-portrait/custom-realistic-portrait-seascape.png",
+    "tags": ["portrait", "realistic", "seascape", "male"]
+  }
+]
