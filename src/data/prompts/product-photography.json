@@ -6,7 +6,7 @@
     "category": "product-photography",
     "prompt": "Polar cinematic product campaign. Create a high-quality AI image inspired by this reference style. Category: Product and brand. Model style: GPT Image. Visual keywords: product, food. Preserve the strongest composition, lighting, typography, and editorial polish while making the final result original, detailed, and production-ready.",
     "negativePrompt": "reflections of studio equipment, watermark, text",
-    "image": "/images/prompts/product-photography/polar-cinematic-product-campaign.jpg",
+    "image": "/images/prompts/product-photography/Polar-cinematic-product-campaign.jpg",
     "tags": ["product", "studio", "commercial"]
   },
   {
