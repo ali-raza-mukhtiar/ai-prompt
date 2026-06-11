@@ -34,6 +34,7 @@ export function PromptCardImage({ src, alt, className, variant = "default" }: Pr
         className="object-cover"
         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
         loading="lazy"
+        unoptimized
         onError={() => {
           // If webp failed, try original src; otherwise fall back to placeholder
           if (imageSrc !== src && /\.(png|jpe?g)$/i.test(src)) {

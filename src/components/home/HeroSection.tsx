@@ -116,7 +116,7 @@ export function HeroSection() {
                       <Link href={`/prompts/${r.slug}`} className="flex items-center gap-3 no-underline">
                         <div className="relative h-12 w-20 shrink-0 overflow-hidden rounded-sm bg-muted">
                           {r.image ? (
-                            <Image src={r.image} alt={r.title} fill className="object-cover" />
+                            <Image src={r.image} alt={r.title} fill className="object-cover" unoptimized />
                           ) : null}
                         </div>
                         <div>
