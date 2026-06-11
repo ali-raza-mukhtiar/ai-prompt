@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import { cn } from "@/lib/cn";
 
-const PLACEHOLDER_IMAGE = "/images/prompts/realistic-portrait/prompt.svg";
+const PLACEHOLDER_IMAGE = "/images/placeholders/prompt.svg";
 
 type PromptCardImageProps = {
   src: string;

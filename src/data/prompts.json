@@ -36,7 +36,7 @@
     "category": "fantasy",
     "prompt": "Epic fantasy landscape with floating islands above a misty valley, waterfalls falling into the clouds, ancient ruins on cliffs, soft volumetric light, painterly details, wide composition",
     "negativePrompt": "modern buildings, logos, signature, text",
-    "image": "/images/prompts/floating-island.jpg",
+    "image": "/images/prompts/fantasy/floating-island-fantasy.png",
     "tags": ["fantasy", "landscape", "epic"]
   },
   {
@@ -46,7 +46,7 @@
     "category": "architecture",
     "prompt": "Interior render of a modern minimalist living room, natural light from floor-to-ceiling windows, neutral palette, textured fabrics, product photography style, 50mm, crisp shadows, realistic materials",
     "negativePrompt": "cluttered, lowres, unnatural lighting",
-    "image": "/images/prompts/minimalist-living-room.jpg",
+    "image": "/images/prompts/architecture/modern-minimalist-living-room.jpg",
     "tags": ["interior", "photorealistic", "product photography"]
   },
   {
@@ -66,7 +66,7 @@
     "category": "product-photography",
     "prompt": "Clean studio product shot of a matte black coffee grinder on a white background, softbox lighting, crisp shadows, 85mm, high detail, commercial retouching",
     "negativePrompt": "reflections of studio equipment, watermark, text",
-    "image": "/images/prompts/coffee-grinder.jpg",
+    "image": "/images/prompts/product-photography/Polar-cinematic-product-campaign.jpg",
     "tags": ["product", "studio", "commercial"]
   },
   {
@@ -76,7 +76,7 @@
     "category": "logo-design",
     "prompt": "Set of three minimal logo mark concepts for a modern tech brand, geometric forms, single-color, scalable vector style, clear negative space, mockup on stationery",
     "negativePrompt": "complex gradients, photorealistic textures",
-    "image": "/images/prompts/logo-marks.jpg",
+    "image": "/images/prompts/logo-design/minimal-premium-logo-business-name.jpg",
     "tags": ["logo", "branding", "minimal"]
   },
   {
@@ -86,7 +86,7 @@
     "category": "vehicles",
     "prompt": "High-detail concept of a futuristic sports car, low-slung, carbon fiber body, studio lighting, reflective surfaces, motion blur background, 35mm",
     "negativePrompt": "low detail, toy-like proportions",
-    "image": "/images/prompts/futuristic-car.jpg",
+    "image": "/images/prompts/vehicles/futuristic-sports-car.jpg",
     "tags": ["car", "concept", "vehicles"]
   },
   {
@@ -96,7 +96,7 @@
     "category": "landscapes",
     "prompt": "Misty coastal cliffs at dawn, soft pastel color palette, long exposure feel, birds in the distance, atmospheric perspective, high-resolution texture",
     "negativePrompt": "people, buildings, text",
-    "image": "/images/prompts/coastal-cliffs.jpg",
+    "image": "/images/prompts/landscapes/misty-coastal-landscape.png",
     "tags": ["landscape", "misty", "coast"]
   },
   {
@@ -106,7 +106,7 @@
     "category": "wallpapers",
     "prompt": "High-resolution abstract wallpaper with flowing gradients, organic shapes, vibrant but balanced palette, seamless composition for large displays",
     "negativePrompt": "text, logos, lowres",
-    "image": "/images/prompts/abstract-wallpaper.jpg",
+    "image": "/images/prompts/wallpapers/abstract-colorful-wallpaper.png",
     "tags": ["wallpaper", "abstract", "colorful"]
   }
   ,
