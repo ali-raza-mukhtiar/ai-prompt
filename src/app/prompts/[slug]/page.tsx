@@ -6,13 +6,10 @@ import { getPromptBySlug, getPromptExcerpt, getPrompts } from "@/lib/data/prompt
 import { SITE_NAME } from "@/lib/constants";
 import { notFound } from "next/navigation";
 
-type Props = {
-  params: {
-    slug: string;
-  };
-};
-
-export async function generateMetadata({ params }: Props) {
+// Use `any` for params to align with Next.js generated PageProps
+/* eslint-disable @typescript-eslint/no-explicit-any */
+export async function generateMetadata(props: any) {
+  const params = props?.params as { slug: string };
   const prompt = getPromptBySlug(params.slug);
 
   if (!prompt) {
@@ -46,7 +43,8 @@ export function generateStaticParams() {
   return getPrompts().map((p) => ({ slug: p.slug }));
 }
 
-export default function PromptDetailPage({ params }: Props) {
+export default function PromptDetailPage(props: any) {
+  const params = props?.params as { slug: string };
   const prompt = getPromptBySlug(params.slug);
 
   if (!prompt) return notFound();

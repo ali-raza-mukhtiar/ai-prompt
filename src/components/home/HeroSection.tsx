@@ -44,7 +44,11 @@ export function HeroSection() {
         const data: SearchResult[] = await res.json();
         setResults(data);
       } catch (e) {
-        if ((e as any).name !== "AbortError") console.error(e);
+        if (e instanceof DOMException && e.name === "AbortError") {
+          // request was aborted, ignore
+        } else {
+          console.error(e);
+        }
       } finally {
         setLoading(false);
       }

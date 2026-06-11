@@ -50,7 +50,7 @@ export default function AboutPage() {
         <section>
           <h2>Future plans</h2>
           <p>
-            We're focused on three near-term improvements: better team libraries
+            We&apos;re focused on three near-term improvements: better team libraries
             so organizations can share private templates, analytics to measure
             which prompts produce the best results, and export tools to integrate
             templates into common authoring and automation workflows.

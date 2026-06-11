@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import { Container } from "@/components/layout/Container";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { BlogPostCard } from "@/components/home/BlogPostCard";

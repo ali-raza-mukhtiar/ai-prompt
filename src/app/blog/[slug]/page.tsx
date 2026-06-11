@@ -5,9 +5,7 @@ import { getBlogs, getBlogBySlug } from "@/lib/data/blogs";
 import { getReadTime } from "@/lib/data/utils";
 import { SITE_NAME } from "@/lib/constants";
 
-type Props = {
-  params: { slug: string };
-};
+// Use inline param types to align with Next.js PageProps inference
 
 function formatDate(dateString: string): string {
   return new Date(dateString).toLocaleDateString("en-US", {
@@ -23,7 +21,9 @@ export async function generateStaticParams() {
   return blogs.map((b) => ({ slug: b.slug }));
 }
 
-export async function generateMetadata({ params }: Props) {
+/* eslint-disable @typescript-eslint/no-explicit-any */
+export async function generateMetadata(props: any) {
+  const params = props?.params as { slug: string };
   const post = getBlogBySlug(params.slug);
 
   if (!post) return {};
@@ -38,7 +38,8 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default function BlogPostPage({ params }: Props) {
+export default function BlogPostPage(props: any) {
+  const params = props?.params as { slug: string };
   const post = getBlogBySlug(params.slug);
 
   if (!post) {
