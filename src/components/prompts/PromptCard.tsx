@@ -25,7 +25,7 @@ export function PromptCard({
     <article className={cn("relative flex h-full flex-col overflow-hidden rounded-lg border border-border bg-surface transition-colors prompt-card-hover", className)}>
       {isFeatured ? (
         <div className="absolute right-3 top-3 z-10">
-          <span className="featured-badge">Featured</span>
+          <span className="featured-badge">Viral</span>
         </div>
       ) : null}
       <Link href={`/prompts/${prompt.slug}`} className="no-underline">

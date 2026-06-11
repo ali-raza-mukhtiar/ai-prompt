@@ -1,4 +1,4 @@
-import { getBlogs, getCategories } from "@/lib/data";
+import { getBlogs, getCategories, getPrompts } from "@/lib/data";
 
 function toUrl(path: string) {
   return `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}${path}`;
@@ -16,7 +16,8 @@ export async function GET() {
 
   blogs.forEach((b) => urls.push(toUrl(`/blog/${b.slug}`)));
   categories.forEach((c) => urls.push(toUrl(`/categories/${c.slug}`)));
-  // prompt detail pages removed; do not include them in sitemap
+  // include prompt detail pages
+  getPrompts().forEach((p) => urls.push(toUrl(`/prompts/${p.slug}`)));
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

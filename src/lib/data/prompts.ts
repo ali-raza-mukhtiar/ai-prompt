@@ -58,6 +58,16 @@ export function getFeaturedPrompts(limit = 4): Prompt[] {
   return prompts.slice(0, limit);
 }
 
+export function getAllTags(): string[] {
+  const set = new Set<string>();
+
+  prompts.forEach((p) => {
+    (p.tags || []).forEach((t) => set.add(t));
+  });
+
+  return Array.from(set).sort((a, b) => a.localeCompare(b));
+}
+
 export function searchPrompts(query: string): Prompt[] {
   const normalizedQuery = query.trim().toLowerCase();
 

@@ -6,7 +6,7 @@
     "category": "wallpapers",
     "prompt": "High-resolution abstract wallpaper with flowing gradients, organic shapes, vibrant but balanced palette, seamless composition for large displays",
     "negativePrompt": "text, logos, lowres",
-    "image": "/images/prompts/abstract-wallpaper.jpg",
+    "image": "/images/prompts/wallpapers/abstract-colorful-wallpaper.png",
     "tags": ["wallpaper", "abstract", "colorful"]
   }
 ]

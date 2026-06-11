@@ -22,6 +22,7 @@ export {
   getPrompts,
   getPromptsByCategory,
   getPromptsByTag,
+  getAllTags,
   searchPrompts,
 } from "./prompts";
 

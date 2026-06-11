@@ -6,7 +6,17 @@
     "category": "landscapes",
     "prompt": "Misty coastal cliffs at dawn, soft pastel color palette, long exposure feel, birds in the distance, atmospheric perspective, high-resolution texture",
     "negativePrompt": "people, buildings, text",
-    "image": "/images/prompts/coastal-cliffs.jpg",
+    "image": "/images/prompts/landscapes/misty-coastal-landscape.png",
     "tags": ["landscape", "misty", "coast"]
+  },
+   {
+    "id": "img-005",
+    "title": "Miniature Pakistan Planet",
+    "slug": "miniature-pakistan-planet",
+    "category": "landscapes",
+    "prompt": "Create a hyper-realistic miniature planet showcasing [pakistan] with famous landmarks seamlessly curving around the spherical surface. Position bold 3D white text \"[pakistan]\" naturally integrated across the lush green central parkland with realistic shadows and dimensional depth. Capture from a top-down orbiting angle that emphasizes the dramatic planet curvature. Use soft golden hour daylight filtering through partly cloudy skies, casting gentle shadows on emerald grass and surrounding trees. The background should blend into a swirling atmospheric sky. Apply vibrant greens, warm earth tones, and soft blues. Render in polished photorealistic style with fine architectural detail. 1080x1080 format.",
+    "negativePrompt": "modern buildings, logos, signature, text",
+    "image": "/images/prompts/landscapes/miniature-pakistan-planet.png",
+    "tags": ["fantasy", "landscape", "landscapes"]
   }
 ]

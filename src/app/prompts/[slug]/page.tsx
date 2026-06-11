@@ -24,11 +24,18 @@ export async function generateMetadata({ params }: Props) {
 
   const description = getPromptExcerpt(prompt);
 
+  const seoTitle = `${prompt.title} Prompt | Free AI Image Prompt`;
+
   return {
-    title: `${prompt.title} — ${SITE_NAME}`,
+    title: seoTitle,
     description,
     openGraph: {
-      title: `${prompt.title} — ${SITE_NAME}`,
+      title: seoTitle,
+      description,
+      images: [prompt.image],
+    },
+    twitter: {
+      title: seoTitle,
       description,
       images: [prompt.image],
     },
@@ -46,6 +53,20 @@ export default function PromptDetailPage({ params }: Props) {
 
   return (
     <Container as="main" size="md" className="py-12">
+      {/* Schema.org JSON-LD for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            name: prompt.title,
+            description: getPromptExcerpt(prompt),
+            image: prompt.image,
+            keywords: prompt.tags?.join(", ") || undefined,
+          }),
+        }}
+      />
       <div className="grid gap-8 md:grid-cols-2">
         <div>
           <PromptCardImage src={prompt.image} alt={prompt.title} />

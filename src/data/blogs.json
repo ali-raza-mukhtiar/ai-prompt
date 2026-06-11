@@ -26,5 +26,89 @@
     "description": "Bracketed placeholders turn one-off prompts into templates your whole team can adapt in seconds.",
     "publishedAt": "2026-04-12",
     "content": "Hard-coded details make prompts brittle. The moment a product name or audience changes, the prompt needs a full rewrite.\n\nPlaceholders like [audience], [tone], and [word limit] separate structure from specifics. They signal what to customize and keep the skeleton intact.\n\nName placeholders clearly. [Product] is ambiguous if you run multiple lines. [Product name — consumer app] removes guesswork.\n\nProvide defaults in comments when helpful: [tone: professional and direct]. New users get guidance without cluttering the main prompt.\n\nDocument required vs optional placeholders at the top. Required fields prevent incomplete runs. Optional fields keep power users efficient.\n\nThis small habit is the difference between a personal note and infrastructure your company can rely on."
+  },
+  {
+    "title": "Top Anime Prompts for 2026: Create Stunning Stylized Characters",
+    "slug": "top-anime-prompts-2026",
+    "description": "A practical guide to crafting anime prompts that produce vivid, consistent characters and scenes for 2026-era models.",
+    "publishedAt": "2026-06-11",
+    "content": "Intro: Anime-style images remain popular for concept art, character design, and social media. The right prompt gives you consistent hair, eyes, and lighting across variations.\n\nKey components:\n- Character brief: age, personality, outfit, pose.\n- Art style: reference specific studios or artists sparingly (e.g., ‘soft cel-shading, high contrast rim light’).\n- Camera & lighting: close-up portrait, 50mm lens, golden hour rim light.\n- Color palette and mood: pastel neon, warm highlights.\n\nExample prompt: ‘Anime portrait of a teenage sorcerer, teal hair, heterochromatic eyes, soft cel shading, warm rim light, 3:4 portrait, high-detail facial features, crisp line art.’\n\nOptimization tips: include negative prompts for unwanted artifacts (lowres, watermark, deformed anatomy). Use seeds and steps consistently when fine-tuning.\n\nSEO takeaway: target keywords like ‘anime prompt’, ‘anime portrait prompt’, and ‘midjourney anime prompt’ in headings and meta description to capture long-tail search traffic."
+  },
+  {
+    "title": "Realistic Portrait Prompt Techniques: Lighting, Skin, and Mood",
+    "slug": "realistic-portrait-prompt-techniques",
+    "description": "How to direct AI models to generate photorealistic headshots with natural skin, accurate facial features, and cinematic lighting.",
+    "publishedAt": "2026-06-11",
+    "content": "Overview: Photorealistic portraits require precise instructions for skin texture, camera, lighting, and focal length. Small phrase changes significantly alter results.\n\nCore elements:\n- Facial reference: include ‘use uploaded photo for face reference’ when preserving identity.\n- Camera & lens: 85mm, shallow depth of field, softbox key light.\n- Skin & texture: ‘realistic skin pores, subtle freckles, natural specular highlights’.\n- Posing & expression: direct the eyes and mouth for natural emotion.\n\nExample: ‘Ultra-detailed photorealistic portrait, 85mm lens, golden hour backlight, natural skin pores, light stubble, sharp eyes, shallow depth of field, filmic color grading.’\n\nSEO tips: use terms like ‘realistic portrait prompt’, ‘photorealistic headshot prompt’, and include alt text for images like ‘Realistic portrait of man with golden hour lighting’."
+  },
+  {
+    "title": "Cinematic Prompt Recipes: Dramatic Lighting and Wide Compositions",
+    "slug": "cinematic-prompt-recipes",
+    "description": "Techniques for producing cinematic scenes—moody light, depth, and filmic color grading that read well at hero sizes.",
+    "publishedAt": "2026-06-11",
+    "content": "Why cinematic prompts matter: They turn simple scenes into narrative moments. Use composition, lighting, and color grading notes to evoke emotion.\n\nWhat to add to your prompt:\n- Shot type: wide, medium, close-up.\n- Lighting: hard rim light, volumetric fog, practical lights.\n- Color grading: teal and orange, muted pastels, high contrast.\n- Story beats: describe action or tension.\n\nExample: ‘Cinematic city street at night, neon reflections, lone figure with umbrella, shallow puddles, volumetric fog, dramatic rim lighting, 35mm wide shot, film grain, Dolby Vision color grade.’\n\nSEO: include phrases like ‘cinematic prompt’, ‘filmic landscape prompt’, and optimize headings for long-tail keywords."
+  },
+  {
+    "title": "Fantasy Environment Prompts: Worldbuilding with Detail and Scale",
+    "slug": "fantasy-environment-prompts",
+    "description": "A guide to designing sprawling fantasy landscapes using layered descriptions, scale cues, and architectural anchors.",
+    "publishedAt": "2026-06-11",
+    "content": "Approach: Layer macro and micro details—start with geography, add landmarks, then material and atmosphere.\n\nPrompt checklist:\n- Geography: mountain ranges, river placement, biome.\n- Landmarks: castles, monoliths, floating islands.\n- Atmosphere: fog density, particles, time of day.\n- Focal point: lead the eye with a bright or detailed object.\n\nExample: ‘Epic fantasy valley with cascading waterfalls, floating islands in mist, ancient stone bridge, warm golden hour light, ultra-detailed architecture, cinematic wide shot, 8K realism.’\n\nSEO note: target ‘fantasy landscape prompt’, ‘epic fantasy prompt’, and use image alt text describing key elements."
+  },
+  {
+    "title": "Architecture & Interior Prompts: Real Materials and Lighting",
+    "slug": "architecture-interior-prompts",
+    "description": "Produce realistic architectural renders by specifying materials, camera, and construction details that models can literalize.",
+    "publishedAt": "2026-06-11",
+    "content": "Focus: Architects and artists need predictable materials and scale. Describe structural elements, finishes, and light behavior.\n\nEssentials:\n- Materials: oak, brushed steel, travertine, matte paint.\n- Scale: room dimensions, furniture footprint, human scale reference.\n- Lighting: soft daylight through clerestory, interior warm LEDs.\n- Camera: 24mm interior wide, vertical composition for facades.\n\nExample: ‘Minimalist living room interior, natural oak floors, travertine fireplace, floor-to-ceiling windows, soft morning light, 24mm lens, photorealistic materials, subtle film grain.’\n\nSEO: include ‘architecture prompt’, ‘interior design prompt’, and descriptive alt text like ‘Modern living room with oak floors’."
+  },
+  {
+    "title": "Character Design Prompts: From Silhouette to Personality",
+    "slug": "character-design-prompts",
+    "description": "A step-by-step recipe for creating memorable characters: silhouette, costume, color story, and expressive detail.",
+    "publishedAt": "2026-06-11",
+    "content": "Start with silhouette and archetype, then add unique traits that read at thumbnail size.\n\nChecklist:\n- Silhouette & silhouette adjectives: broad-shouldered, lean, flowing cloak.\n- Costume details: fabrics, trims, cultural references.\n- Personality cues: posture, expression, accessories.\n- Rendering style: flat shading vs painterly vs photoreal.\n\nExample: ‘Character design of a coastal guardian, broad silhouette, layered cloth armor, sea-glass amulet, sun-weathered skin, expressive confident smile, semi-realistic painterly render.’\n\nSEO: use ‘character design prompt’, ‘concept character prompt’, and add alt text describing the character’s key visual elements."
+  },
+  {
+    "title": "Product Photography Prompts: Clean, Commercial, and Clickable",
+    "slug": "product-photography-prompts",
+    "description": "How to create high-conversion product shots with clean backgrounds, crisp lighting, and contextual props.",
+    "publishedAt": "2026-06-11",
+    "content": "Objective: make the product the hero with minimal distractions. Use camera specs and lighting to communicate material quality.\n\nKey points:\n- Background: seamless white, stylized tabletop, or lifestyle scene.\n- Lighting: softbox key, subtle fill, specular highlights for glossy surfaces.\n- Props: contextual but not competing.\n- Post: include retouching notes: color match, shadow grounding, reflection control.\n\nExample: ‘Product shot of matte ceramic mug, seamless white background, top-left softbox, subtle shadow grounding, 50mm lens, ultra-sharp detail, natural color rendering.’\n\nSEO: target ‘product photography prompt’, ‘commercial product shot prompt’, and add descriptive alt text for accessibility."
+  },
+  {
+    "title": "Logo Design Prompt Guide: Minimal Marks with Maximum Meaning",
+    "slug": "logo-design-prompt-guide",
+    "description": "Craft prompts that generate simple, distinctive logo concepts by describing core brand attributes and shape language.",
+    "publishedAt": "2026-06-11",
+    "content": "Brand first: start by summarizing brand values in a single sentence (e.g., ‘eco-friendly fintech for millennials’).\n\nPrompt ingredients:\n- Core attributes: trustworthy, playful, premium.\n- Shape language: geometric, organic, lettermark, emblem.\n- Color constraints: 1–2 colors, accessible contrast.\n- Usage notes: scalable for favicon and billboard.\n\nExample: ‘Logo concepts for eco fintech: minimal geometric leaf + coin monogram, 1–2 color palette, strong negative space, vector-friendly shapes.’\n\nSEO: use ‘logo prompt’, ‘logo design prompt’, and ensure generated images are exported as SVG where possible."
+  },
+  {
+    "title": "Vehicles & Concept Design Prompts: Dynamics and Detail",
+    "slug": "vehicles-concept-design-prompts",
+    "description": "Design vehicle concepts that read in motion: indicate function, propulsion, materials, and silhouette dynamics.",
+    "publishedAt": "2026-06-11",
+    "content": "Brief: vehicle prompts should balance silhouette clarity with material hints. Include propulsion type and use-case.\n\nChecklist:\n- Function: commuter, off-road, aerial.\n- Propulsion: electric hub motors, jet, hybrid.\n- Materials: carbon fiber panels, exposed mechanicals.\n- Shot direction: three-quarter dynamic angle, motion blur.\n\nExample: ‘Futuristic electric commuter bike, low-slung frame, hubless wheels, brushed titanium accents, motion blur, studio lighting, highly detailed render.’\n\nSEO: include ‘vehicle concept prompt’, ‘car design prompt’, and alt text describing the vehicle and key features."
+  },
+  {
+    "title": "Landscapes & Vistas: Prompts for Epic Outdoor Scenes",
+    "slug": "landscape-prompts-epic-vistas",
+    "description": "Techniques to create grand natural vistas: scale cues, atmosphere, and layered foreground to background composition.",
+    "publishedAt": "2026-06-11",
+    "content": "Guide: Landscape prompts need scale anchors—people, trees, or structures—to communicate distance. Use weather and time-of-day for mood.\n\nElements:\n- Scale anchor: tiny human figure, distant city, winding river.\n- Atmosphere: mist, volumetric sunbeams, particle effects.\n- Palette: seasonal color choices for emotional tone.\n\nExample: ‘Panoramic mountain vista at sunrise, winding river, distant monastery on cliffs, soft volumetric light, cinematic color grade, ultra-detailed texture.’\n\nSEO: use ‘landscape prompt’, ‘epic landscape prompt’, and ensure alt text mentions the main visual anchors."
+  },
+  {
+    "title": "Wallpapers & Backgrounds: Design Prompts for High-Resolution Art",
+    "slug": "wallpaper-design-prompts",
+    "description": "Create wallpaper-ready images with safe composition for icons, high-res textures, and adaptable colorways.",
+    "publishedAt": "2026-06-11",
+    "content": "Goal: produce high-res compositions that scale to multiple aspect ratios without losing subject integrity.\n\nConsiderations:\n- Safe area: keep focal detail away from edges used by icons.\n- Texture & pattern: seamless tiles for repeating backgrounds.\n- Colorways: produce alternate palettes for light/dark modes.\n\nExample: ‘Abstract geometric wallpaper, soft gradients, center composition with safe margin, high-res textures, 4K output, subtle noise.’\n\nSEO: target ‘wallpaper prompt’, ‘4k wallpaper prompt’, and include alt text describing composition and color scheme."
+  },
+  {
+    "title": "Old Photo Restoration Prompts: Recovering Detail and Tone",
+    "slug": "old-photo-restoration-prompts",
+    "description": "Best-practice prompts for restoring vintage photographs: colorization, grain management, and artifact removal.",
+    "publishedAt": "2026-06-11",
+    "content": "Restoration workflow: instruct models to maintain historical accuracy while improving legibility.\n\nSteps:\n- Assess damage: tears, dust, faded contrast.\n- Colorization: research period-accurate palettes and avoid modern color artifacts.\n- Detail recovery: sharpen faces subtly and avoid over-processing.\n\nExample: ‘Restore 1940s family portrait: remove scratches and dust, reconstruct missing areas, subtle colorization with muted palette, preserve original clothing texture and grain.’\n\nSEO: include ‘photo restoration prompt’, ‘vintage photo repair prompt’, and add descriptive alt text for accessibility."
   }
 ]

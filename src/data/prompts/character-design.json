@@ -30,4 +30,15 @@
     "image": "/images/prompts/character-design/studio-full-body-brand-portrait.jpg",
     "tags": ["character-design", "studio", "portrait", "8k", "branding"]
   }
+  ,
+  {
+    "id": "img-021",
+    "title": "Profile Card — Pakistan Reference",
+    "slug": "profile-card-pakistan-reference",
+    "category": "character-design",
+    "prompt": "Use the uploaded photo as the face reference. Preserve facial identity accurately.\n\nA realistic human hand holding a premium 3D social media profile card with a large square cutout in the center. A stylish young Pakistani man is casually sitting on the edge of the cutout, partially outside the frame, creating a modern floating 3D effect. The face must closely match the uploaded reference photo with natural skin texture, facial hair, hairstyle, and expression preserved.\n\nThe profile card features a clean modern UI with NO Chinese text, NO logos, and NO foreign language characters. Replace all profile information with customizable fields:\n\nName:\nCountry:\n\nDisplay the name and country clearly at the top of the card in elegant typography. The man is wearing a neatly tailored front-facing Pakistani shalwar kameez with realistic fabric folds and premium detailing. The outfit should be fully visible from the front and look natural, stylish, and well-fitted.\n\nFloating social media interaction icons (Like, Comment, Share, Follow) surround the card with soft neon glow effects, sparkles, and subtle light trails. The background features a warm beige and pastel aesthetic room with books, flowers in a vase, and a vintage camera. Soft golden-hour sunlight creates cinematic lighting, realistic shadows, depth, and bokeh.\n\nUltra-realistic 3D render, Pixar-style + semi-realistic fusion, influencer aesthetic, premium commercial advertisement quality, glossy card texture, realistic depth of field, highly detailed, centered composition, masterpiece quality, 4K, professional social media branding mockup, clean modern interface, luxury lifestyle aesthetic.",
+    "negativePrompt": "Chinese text, logos, foreign language characters, watermark, text overlay, lowres, blurry, deformed features",
+    "image": "/images/prompts/character-design/profile-card-pakistan-reference.png",
+    "tags": ["character-design", "portrait", "commercial"]
+  }
 ]
